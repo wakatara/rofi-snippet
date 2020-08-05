@@ -98,7 +98,7 @@ func listAllDesc() string {
 }
 
 func Init() {
-	confPath := "/etc" + "/rofi-snippet" + "/config.toml"
+	confPath := "/home/daryl" + "/.snippets" + "/snippets.toml"
 	if _, err := toml.DecodeFile(confPath, &conf); err != nil {
 		log.Fatal(err)
 	}

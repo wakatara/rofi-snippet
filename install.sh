@@ -1,5 +1,5 @@
 #!/bin/bash
 
-sudo mkdir -p /etc/rofi-snippet/
-sudo cp ./config.toml /etc/rofi-snippet/
+sudo mkdir -p $HOME/.snippets/
+sudo cp ./config.toml $HOME/.snippets/snippets.toml
 go install .
